@@ -11,7 +11,7 @@ st.set_page_config(
 
 alt.themes.enable("dark")
 
-df_reshaped = pd.read_csv('nst-est2019-alldata.csv')
+df_reshaped = pd.read_csv('State_Pop_edited.csv')
 
 with st.sidebar:
     st.title('🏂 US Population Dashboard')
